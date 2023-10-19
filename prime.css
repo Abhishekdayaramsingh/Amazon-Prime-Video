@@ -1,0 +1,510 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header {
+    color: white;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 1.1rem;
+   padding: 0px 13rem;
+   position: relative;
+   margin: 0px;
+   background-color: black;
+}
+.fa-solid.fa-magnifying-glass,.fa-solid.fa-user{
+    font-size: 20px;
+    padding: 20px 15px 0px 0px;
+}
+header a{
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+}
+header ul,div{
+    display: flex;
+    justify-content: space-between;
+}
+#ho {
+    display: flex;
+    gap: 40px;
+}
+header ul{
+    list-style: none;
+}
+#s1{
+    background-image: url(./prime/bg.jpg);
+}
+section{
+    color: white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: #0f79af;
+    color: white;
+    padding: 12px 45px;
+    margin: 10px 0px;
+    border: 0;
+    border-radius: 5%;
+    font-size: 1rem;
+}
+section div{
+    display: block;
+    width: 43%;
+    margin: auto;
+    margin-top: 10px;
+}
+h1{
+    font-size: 3rem;
+    margin: 16px 0px;
+}
+h3{
+    font-size: 1.5rem;
+    margin: 16px 0px;
+}
+#s2{
+    background-image: url(./prime/im1.jpg);
+}
+#s2 div{
+    align-items: center;
+    margin: 85px 16px 0px 0px;
+    padding: 4rem 2rem;
+}
+#s2 h1{
+    font-size: 2.5rem;
+    
+}
+#s2 h3{
+    font-size: 1.5rem;
+    margin: 12px 0px;
+}
+#s3{
+    background-image: url(./prime/rem.jpg);
+}
+#s3 div{
+    align-items: center;
+    margin: 85px 16px 0px 0px;
+    padding: 4rem 2rem;
+}
+#s3 h1{
+    font-size: 2.5rem;
+}
+#s3 h3{
+    font-size: 1rem;
+    margin: 12px 0px;
+}
+#s4{
+    background-image: url(./prime/im2.jpg);
+}
+#s4 div{
+    display: block;
+    width: 43%;
+    margin: auto;
+    margin-top: 80px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+}
+footer div{
+    display: inline-block;
+    text-align: center;
+    padding: 35px;
+}
+footer div ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+footer p{
+    color: white;
+}
+#s5{
+    color: black;
+    width: 100%;
+    height: 100vh;
+}
+#s4 div{
+    display: block;
+    width: 43%;
+    height: 100vh;
+    margin: auto;
+    padding: 0px;
+}
+#im nav {
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 55%;
+}
+nav{
+    margin: 0px;
+}
+#s5 #im{
+    height: 100%;
+}
+#s5 #top{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+#home,#store,#cat,#en,#icon{
+    position: relative;
+}
+#menu{
+        list-style-type: none;
+        padding: 0px;
+        position: absolute;
+        background-color: rgb(12, 11, 11);
+        width: 260%;
+        top: 104%;
+        left: -49%;
+        border-radius: 10px;
+        display: none;
+    }
+#menu li,#menu1 li,#menu4 li{
+    padding: 15px 10px;
+}    
+#menu3 li,#menu2 li{
+    padding: 25px 5px;
+}
+#home:hover #menu{
+        display: block;
+    }
+#menu1{
+        list-style-type: none;
+        padding: 0px;
+        position: absolute;
+        background-color: rgb(12, 11, 11);
+        width: 120%;
+        top: 104%;
+        left: 10%;
+        border-radius: 10px;
+        display: none;
+    }
+#store:hover #menu1{
+        display: block;
+    }
+#menu2{
+        list-style-type: none;
+        padding: 0px;
+        position: absolute;
+        background-color: rgb(12, 11, 11);
+        width: 100%;
+        top: 104%;
+        left: 10%;
+        border-radius: 10px;
+        display: none;
+    }
+#cat:hover #menu2{
+        display: block;
+    }
+#menu3{
+        list-style-type: none;
+        padding: 0px;
+        position: absolute;
+        background-color: rgb(12, 11, 11);
+        width: 600%;
+        top: 60%;
+        left: -380%;
+        border-radius: 10px;
+        display: none;
+    }
+#en:hover #menu3{
+        display: block;
+    }
+#menu4{
+        list-style-type: none;
+        padding: 0px;
+        position: absolute;
+        background-color: rgb(12, 11, 11);
+        width: 600%;
+        top: 70%;
+        left: -480%;
+        border-radius: 10px;
+        display: none;
+    }
+#icon:hover #menu4{
+        display: block;
+     }
+#menu li:hover,#menu1 li:hover,#menu2 li:hover,#menu3 li:hover,#menu4 li:hover{
+    background-color: rgba(255, 255, 255, 0.63);
+}
+#im img{
+    width: 190px;
+    height: 138px;
+}
+#s5 #im #top,#s5 #im #center,#s5 #im #end,#s5 #im #top1{
+    padding: 5px 2px;
+}
+#s5 #im img:hover{
+    border: 5px solid grey;
+}
+
+/* ----mobile------ */
+@media (max-width:600px)  
+{
+    body{
+       display: inline-block;
+       width: 100%;
+    }
+    header {
+        display: inline-block;
+        color: white;
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+       font-size: 1.1rem;
+       padding: 0px 13rem;
+       position: relative;
+       margin: 0px;
+       background-color: black;
+       width: 100%;
+    }
+    .fa-solid.fa-magnifying-glass,.fa-solid.fa-user{
+        font-size: 20px;
+        padding: 20px 15px 0px 0px;
+    }
+    header a{
+        padding: 25px;
+        color: white;
+        text-decoration: none;
+    }
+    header ul,div{
+        display: flex;
+        justify-content: space-between;
+    }
+    #ho {
+        display: flex;
+        gap: 40px;
+    }
+    header ul{
+        list-style: none;
+    }
+    #s1{
+        background-image: url(./prime/bg.jpg);
+        width: 865px;
+        height: 675px;
+    }
+    section{
+        color: white;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        background-color: #0f79af;
+        color: white;
+        padding: 12px 45px;
+        margin: 10px 0px;
+        border: 0;
+        border-radius: 5%;
+        font-size: 1rem;
+    }
+    section div{
+        display: inline-block;
+        width: 43%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    h1{
+        font-size: 3rem;
+        margin: 16px 0px;
+        display: inline-block;
+    }
+    h3{
+        font-size: 1.5rem;
+        margin: 16px 0px;
+    }
+    #s2{
+        background-image: url(./prime/im1.jpg);
+    }
+    #s2 div{
+        align-items: center;
+        margin: 85px 16px 0px 0px;
+        padding: 4rem 2rem;
+    }
+    #s2 h1{
+        font-size: 2.5rem;
+        
+    }
+    #s2 h3{
+        font-size: 1.5rem;
+        margin: 12px 0px;
+    }
+    #s3{
+        background-image: url(./prime/rem.jpg);
+    }
+    #s3 div{
+        align-items: center;
+        margin: 85px 16px 0px 0px;
+        padding: 4rem 2rem;
+    }
+    #s3 h1{
+        font-size: 2.5rem;
+    }
+    #s3 h3{
+        font-size: 1rem;
+        margin: 12px 0px;
+    }
+    #s4{
+        background-image: url(./prime/im2.jpg);
+    }
+    #s4 div{
+        display: block;
+        width: 43%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    footer{
+      display: flex;
+      justify-content: center;
+      background-color: #222222;
+    }
+    footer div{
+        display: inline-block;
+        text-align: center;
+        padding: 35px;
+    }
+    footer div ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        gap: 20px;
+        
+    }
+    footer p{
+        color: white;
+    }
+    #s5{
+        color: black;
+        width: 100%;
+        height: 100vh;
+    }
+    #s4 div{
+        display: block;
+        width: 43%;
+        height: 100vh;
+        margin: auto;
+        padding: 0px;
+    }
+    #im nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        width: 55%;
+    }
+    nav{
+        margin: 0px;
+    }
+    #s5 #im{
+        height: 100%;
+    }
+    #s5 #top{
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #home,#store,#cat,#en,#icon{
+        position: relative;
+    }
+    #menu{
+            list-style-type: none;
+            padding: 0px;
+            position: absolute;
+            background-color: rgb(12, 11, 11);
+            width: 260%;
+            top: 104%;
+            left: -49%;
+            border-radius: 10px;
+            display: none;
+        }
+    #menu li,#menu1 li,#menu4 li{
+        padding: 15px 10px;
+    }    
+    #menu3 li,#menu2 li{
+        padding: 25px 5px;
+    }
+    #home:hover #menu{
+            display: block;
+        }
+    #menu1{
+            list-style-type: none;
+            padding: 0px;
+            position: absolute;
+            background-color: rgb(12, 11, 11);
+            width: 120%;
+            top: 104%;
+            left: 10%;
+            border-radius: 10px;
+            display: none;
+        }
+    #store:hover #menu1{
+            display: block;
+        }
+    #menu2{
+            list-style-type: none;
+            padding: 0px;
+            position: absolute;
+            background-color: rgb(12, 11, 11);
+            width: 100%;
+            top: 104%;
+            left: 10%;
+            border-radius: 10px;
+            display: none;
+        }
+    #cat:hover #menu2{
+            display: block;
+        }
+    #menu3{
+            list-style-type: none;
+            padding: 0px;
+            position: absolute;
+            background-color: rgb(12, 11, 11);
+            width: 600%;
+            top: 60%;
+            left: -380%;
+            border-radius: 10px;
+            display: none;
+        }
+    #en:hover #menu3{
+            display: block;
+        }
+    #menu4{
+            list-style-type: none;
+            padding: 0px;
+            position: absolute;
+            background-color: rgb(12, 11, 11);
+            width: 600%;
+            top: 70%;
+            left: -480%;
+            border-radius: 10px;
+            display: none;
+        }
+    #icon:hover #menu4{
+            display: block;
+         }
+    #menu li:hover,#menu1 li:hover,#menu2 li:hover,#menu3 li:hover,#menu4 li:hover{
+        background-color: rgba(255, 255, 255, 0.63);
+    }
+    #im img{
+        width: 190px;
+        height: 138px;
+    }
+    #s5 #im #top,#s5 #im #center,#s5 #im #end,#s5 #im #top1{
+        padding: 5px 2px;
+    }
+    #s5 #im img:hover{
+        border: 5px solid grey;
+    }
+}
